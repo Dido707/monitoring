@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>楼盘布局管理</title>
+		<link href="favicon.ico" rel="shortcut icon">
+
+		<script type="text/javascript" src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+
+		<!-- my file -->
+		<script type="text/javascript" src="./js/my.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/my.css" />
+	</head>
+
+	<body>
+		<!--顶部导航-->
+		<div class="container-fluid">
+			<div class="row header">
+				<div class="col-xs-2 logo"> <img src="img/vision.png"> </div>
+				<div class="col-xs-8 title"> 权限管理系统 </div>
+				<div class="col-xs-2 username ">
+					<div class="log-out fr">
+						<a href="log in.html"></a>
+					</div>
+					<div class="sitting fr">
+					</div>
+					<div class="fr">用户名</div>
+				</div>
+			</div>
+		</div>
+		<!--侧边导航-->
+		<div class="nav">
+			<ul class="">
+				<li>
+					<a href="index.html" class="ywzh">业务账户管理</a>
+				</li>
+				<li>
+					<a href="loupan.html" class="lpbj active  active-lp-pic">楼盘布局管理</a>
+				</li>
+			</ul>
+		</div>
+
+		<!--主体-->
+		<div class="container-fluid mainbody mainplace">
+			<!--小区-->
+			<div class="row  main-lpbj xiaoqu">
+				<div class="col-xs-12 title-lpbj pad">
+					<h4 class="fl">小区</h4>
+					<div class="btn-edit btn-edit-xiaoqu fr"></div>
+					<div class="btn-add btn-add-xiaoqu fr"></div>
+				</div>
+				<div class="col-xs-12  pad">
+					<ul class="edit-lp">
+						<li>
+							<div class="checkbox-select fl"> <input type="checkbox" value="1" id="checkboxOneInput" name="" /> <label for="checkboxOneInput"></label> </div> <span>怡美家园</span> </li>
+						<li>
+							<div class="checkbox-select fl"> <input type="checkbox" value="1" id="checkboxTwoInput" name="" /> <label for="checkboxTwoInput"></label> </div> <span>怡美家园</span> </li>
+						<li>
+							<div class="checkbox-select fl"> <input type="checkbox" value="1" id="checkboxThreeInput" name="" /> <label for="checkboxThreeInput"></label> </div> <span>怡美家园</span> </li>
+						<li>
+							<div class="checkbox-select fl"> <input type="checkbox" value="1" id="checkboxFourInput" name="" /> <label for="checkboxFourInput"></label> </div> <span>怡美家园</span> </li>
+						<li>
+							<div class="checkbox-select fl"> <input type="checkbox" value="1" id="checkboxFiveInput" name="" /> <label for="checkboxFiveInput"></label> </div> <span>怡美家园</span> </li>
+						<li>
+							<div class="checkbox-select fl"> <input type="checkbox" value="1" id="checkboxSixInput" name="" /> <label for="checkboxSixInput"></label> </div> <span>怡美家园</span> </li>
+						<li>
+							<div class="checkbox-select fl"> <input type="checkbox" value="1" id="checkboxSevenInput" name="" /> <label for="checkboxSevenInput"></label> </div> <span>怡美家园</span> </li>
+						<li>
+							<div class="checkbox-select fl"> <input type="checkbox" value="1" id="checkboxEightInput" name="" /> <label for="checkboxEightInput"></label> </div> <span>怡美家园</span> </li>
+						<li>
+							<div class="checkbox-select fl"> <input type="checkbox" value="1" id="checkboxNineInput" name="" /> <label for="checkboxNineInput"></label> </div> <span>怡美家园</span> </li>
+						<li>
+							<div class="checkbox-select fl"> <input type="checkbox" value="1" id="checkboxTenInput" name="" /> <label for="checkboxTenInput"></label> </div> <span>怡美家园</span> </li>
+					</ul>
+				</div>
+				<div class="col-xs-12 btn-sm text-center"> <button class="btn-type btn-undo">取消</button> <button class="btn-type active btn-delect">删除</button> </div>
+			</div>
+			<!--楼号-->
+			<div class="row  main-lpbj">
+				<div class="col-xs-12 title-lpbj pad">
+					<h4 class="fl">楼号</h4>
+					<div class="btn-edit btn-edit-louhao fr"></div>
+				</div>
+				<div class="col-xs-12  pad">
+					<ul class="edit-lp">
+						<li>
+							<div class="checkbox-select fl"> <input type="checkbox" value="2" id="checkboxLouhao" name="" /> <label for="checkboxLouhao"></label> </div> <span>111</span> </li>
+					</ul>
+				</div>
+				<div class="col-xs-12 btn-sm text-center"> <button class="btn-type btn-undo">取消</button> <button class="btn-type active btn-delect">删除</button> </div>
+			</div>
+			<!--单元-->
+			<div class="row  main-lpbj">
+				<div class="col-xs-12 title-lpbj pad">
+					<h4 class="fl">单元</h4>
+					<div class="btn-edit-danyuan btn-edit fr"></div>
+				</div>
+				<div class="col-xs-12  pad">
+					<ul class="edit-lp">
+						<li>
+							<div class="checkbox-select fl"> <input type="checkbox" value="1" id="checkboxDanyuan1" name="" /> <label for="checkboxDanyuan1"></label> </div> <span>1单元</span> </li>
+						<li>
+							<div class="checkbox-select fl"> <input type="checkbox" value="1" id="checkboxDanyuan2" name="" /> <label for="checkboxDanyuan2"></label> </div> <span>3单元</span> </li>
+						<li>
+							<div class="checkbox-select fl"> <input type="checkbox" value="1" id="checkboxDanyuan3" name="" /> <label for="checkboxDanyuan3"></label> </div> <span>3单元</span> </li>
+					</ul>
+				</div>
+				<div class="col-xs-12 btn-sm text-center"> <button class="btn-type btn-undo">取消</button> <button class="btn-type active btn-delect">删除</button> </div>
+			</div>
+
+			<!--楼层-->
+			<div class="row floor">
+				<div class="col-xs-12 title-fj pad">
+					<div class="margin-fj">
+						<h4 class="fl">楼层</h4>
+						<div class="btn-edit-floor btn-edit fr"></div>
+					</div>
+				</div>
+				<div class="col-xs-12  padding-fj clear">
+					<div class="fl floor-fj">
+						<div class="checkbox-md fl"> <input class="checkbox-xs" type="checkbox" value="1" id="checkboxMdInput1" name="" /> <label for="checkboxMdInput1"></label> </div> <span>1</span>
+					</div>
+					<div class="fj">
+						<ul class="edit-lp fl">
+							<li>
+								<div class="checkbox-select fl"> <input type="checkbox" value="1" id="checkboxFjInput" name="" /> <label for="checkboxFjInput"></label> </div> <span>1单元</span>
+							</li>
+						</ul>
+						<div class="col-xs-12 btn-sm text-center"> <button class="btn-type btn-undo">取消</button> <button class="btn-type active btn-delect">删除</button> </div>
+					</div>
+				</div>
+				<div class="col-xs-12  padding-fj clear">
+					<div class="fl floor-fj">
+						<div class="checkbox-md fl"> <input type="checkbox" value="1" id="checkboxMdInput2" name="" /> <label for="checkboxMdInput2"></label> </div> <span>1</span>
+					</div>
+					<div>
+						<ul class="edit-lp fl">
+							<li>
+								<div class="checkbox-select fl"> <input type="checkbox" value="1" id="checkboxFjInput" name="" /> <label for="checkboxFjInput"></label> </div> <span>1单元</span>
+							</li>
+						</ul>
+						<div class="col-xs-12 btn-sm text-center"> <button class="btn-type btn-undo">取消</button> <button class="btn-type active btn-delect">删除</button> </div>
+					</div>
+				</div>
+				<div class="col-xs-12  padding-fj clear">
+					<div class="fl floor-fj">
+						<div class="checkbox-md fl"> <input type="checkbox" value="1" id="checkboxMdInput3" name="" /> <label for="checkboxMdInput3"></label> </div> <span>1</span>
+					</div>
+					<div>
+						<ul class="edit-lp fl">
+							<li>
+								<div class="checkbox-select fl"> <input type="checkbox" value="1" id="checkboxFjInput" name="" /> <label for="checkboxFjInput"></label> </div> <span>1单元</span>
+							</li>
+						</ul>
+						<div class="col-xs-12 btn-sm text-center"> <button class="btn-type btn-undo">取消</button> <button class="btn-type active btn-delect">删除</button> </div>
+					</div>
+				</div>
+				<!--删除楼层-->
+				<div class="col-xs-12  btn-louceng text-right">
+					<button class="btn-type btn-undo btn-md-undo">取消</button>
+					<button class="btn-type active btn-md-delect">删除</button>
+				</div>
+			</div>
+		</div>
+
+		<!--创建小区弹窗-->
+		<div class="container-fluid info-box" id="alertCreatBuilding">
+			<div class="row info">
+				<header>创建小区
+					<div class="btn-close"></div>
+				</header>
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+						<label for="inputUsername" class="col-xs-2 control-label">小区名称：</label>
+						<div class="col-xs-3">
+							<input type="text" class="form-control" id="inputUsername" placeholder=" ">
+						</div>
+						<label for="inputUsername" class="col-xs-offset-1 col-xs-2 control-label">联系电话：</label>
+						<div class="col-xs-4">
+							<input type="" class="form-control" id="inputUsername" placeholder=" ">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="inputUsername" class="col-xs-2 control-label">最大楼房数：</label>
+						<div class="col-xs-3">
+							<input type="text" class="form-control" id="inputUsername" placeholder=" ">
+						</div>
+						<label for="inputUsername" class="col-xs-offset-1 col-xs-2 control-label">每楼单元数：</label>
+						<div class="col-xs-4">
+							<input type="" class="form-control" id="inputUsername" placeholder=" ">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="inputUsername" class="col-xs-2 control-label">每楼楼房数：</label>
+						<div class="col-xs-3">
+							<input type="text" class="form-control" id="inputUsername" placeholder=" ">
+						</div>
+						<label for="inputUsername" class="col-xs-offset-1 col-xs-2 control-label">每层房间数：</label>
+						<div class="col-xs-4">
+							<input type="" class="form-control" id="inputUsername" placeholder=" ">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-sm-12">
+							<button type="submit" class="btn btn-primary btn-alert btn-lpbj">生成楼盘布局</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!--修改密码弹窗-->
+		<div class="container-fluid info-box" id="alertSitting">
+			<div class="row info">
+				<header>修改密码
+					<div class="btn-close"></div>
+				</header>
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+						<label for="inputEmail3" class="col-xs-2 control-label">密码：</label>
+						<div class="col-xs-10">
+							<input type="password" class="form-control" id="inputEmail3" placeholder="">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-sm-12">
+							<button type="submit" class="btn btn-primary btn-alert" id="">保&nbsp;存</button>
+						</div>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</body>
+
+</html>
